@@ -1,26 +1,23 @@
 [
   {
     "id": 1,
-    "title": "Enjoy on your TV.",
-    "subTitle": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
+    "title": "Enjoy your lecture.",
+    "subTitle": "Watch on SmartPhones , Laptops, Tablets, smart TVs, Chromecast, Apple TV, and more.",
     "image": "/images/misc/home-tv.jpg",
-    "alt": "Tiger King on Netflix",
     "direction": "row"
   },
   {
     "id": 2,
-    "title": "Download your programmes to watch on the go.",
+    "title": "Download your lectures to watch on the go.",
     "subTitle": "Save your data and watch all your favourites offline.",
     "image": "/images/misc/home-mobile.jpg",
-    "alt": "Watch on mobile",
-    "direction": "row-reverse"
+     "direction": "row-reverse"
   },
   {
     "id": 3,
-    "title": "Watch everywhere.",
-    "subTitle": "Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.",
+    "title": "Transform your life through education.",
+    "subTitle": "You can launch a new career in software development by taking courses on Edustream.",
     "image": "/images/misc/home-imac.jpg",
-    "alt": "Money Heist on Netflix",
     "direction": "row"
   }
 ]
