@@ -59,7 +59,7 @@ export default function SignIn() {
 
           <Form.Text>
             {/* New to Edustream?  */}
-                     <Form.Link to="/signup">Sign up now.</Form.Link>
+                    Dont have an account ? <Form.Link to="/signup">Sign up now.</Form.Link>
           </Form.Text>
           <Form.TextSmall>
             {/* This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more. */}

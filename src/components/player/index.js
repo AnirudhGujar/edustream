@@ -36,7 +36,7 @@ Player.Button = function PlayerButton({ ...restProps }) {
   const { showPlayer, setShowPlayer } = useContext(PlayerContext);
 
   return (
-    <Button onClick={() => setShowPlayer((showPlayer) => !showPlayer)} {...restProps}>
+     <Button style={{marginTop:40}} onClick={() => setShowPlayer((showPlayer) => !showPlayer)} {...restProps}>
       Play
     </Button>
   );
