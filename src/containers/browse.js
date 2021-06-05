@@ -46,7 +46,7 @@ export function BrowseContainer({ slides }) {
       <Header src="joker1" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
-            <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
+            <Header.Logo to={ROUTES.HOME} src={logo} alt="Edustream" />
             <Header.TextLink active={category === 'series' ? 'true' : 'false'} onClick={() => setCategory('series')}>
               Languages
             </Header.TextLink>
@@ -73,13 +73,12 @@ export function BrowseContainer({ slides }) {
 
         <Header.Feature>
            {/* <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut> */}
-          <Header.Text>
+          {/* <Header.Text>
             Stay Home 
-            Stay Safe
-            Study Smart
-            Study Online
-            
           </Header.Text>
+          <Header.Text>
+            Stay safe
+          </Header.Text> */}
           {/* <Header.PlayButton>Play</Header.PlayButton>  */}
         </Header.Feature>
       </Header>
