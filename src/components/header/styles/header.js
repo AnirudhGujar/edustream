@@ -4,7 +4,7 @@ import { Link as ReachRouterLink } from 'react-router-dom';
 export const Background = styled.div`
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35)), url(${({ src }) => (src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg')}) top left / cover
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.35)), url(${({ src }) => (src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg')}) top left / cover
     no-repeat;
 
   @media (max-width: 1100px) {
@@ -107,7 +107,7 @@ export const ButtonLink = styled(ReachRouterLink)`
   color: white;
   border: 0;
   font-size: 15px;
-  border-radius: 3px;
+  border-radius: 40px 10px 40px 10px;
   padding: 8px 17px;
   cursor: pointer;
   text-decoration: none;
@@ -186,6 +186,7 @@ export const Feature = styled(Container)`
   padding: 150px 0 500px 0;
   flex-direction: column;
   align-items: normal;
+  justify-content:center;
   width: 50%;
 
   @media (max-width: 1100px) {
@@ -204,7 +205,9 @@ export const FeatureCallOut = styled.h2`
 
 export const Text = styled.p`
   color: white;
-  font-size: 22px;
+  flex-direction:row;
+  font-size: 35px;
+  margin-bottom: -10px;
   line-height: normal;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 `;

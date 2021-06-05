@@ -38,6 +38,7 @@ export const Button = styled.button`
   font-size: 26px;
   border: 0;
   cursor: pointer;
+  border-radius:50px;
 
   img {
     margin-left: 10px;
