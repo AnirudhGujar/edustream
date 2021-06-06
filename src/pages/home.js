@@ -11,12 +11,9 @@ export default function Home() {
       <HeaderContainer>
         <Feature>
           <Feature.Title>Unlimited Video Lecture, and more.</Feature.Title>
-          {/* <Feature.SubTitle>Watch anywhere. Cancel at any time.</Feature.SubTitle> */}
           <OptForm>
-            {/* <OptForm.Input placeholder="Email address" /> */}
             <OptForm.Button>Watch Now</OptForm.Button>
             <OptForm.Break />
-            {/* <OptForm.Text>Ready to watch? </OptForm.Text> */}
           </OptForm>
         </Feature>
       </HeaderContainer>

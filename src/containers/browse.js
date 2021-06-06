@@ -13,7 +13,7 @@ export function BrowseContainer({ slides }) {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [slideRows, setSlideRows] = useState([]);
-  const [video,setVideo]= useState('bunny');
+  const [video,setVideo]= useState('intro1');
 
   const { firebase } = useContext(FirebaseContext);
   const user = firebase.auth().currentUser || {};
@@ -43,7 +43,7 @@ export function BrowseContainer({ slides }) {
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
 
-      <Header src="joker1" dontShowOnSmallViewPort>
+      <Header src="browse-bg" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
             <Header.Logo to={ROUTES.HOME} src={logo} alt="Edustream" />
@@ -72,14 +72,6 @@ export function BrowseContainer({ slides }) {
         </Header.Frame>
 
         <Header.Feature>
-           {/* <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut> */}
-          {/* <Header.Text>
-            Stay Home 
-          </Header.Text>
-          <Header.Text>
-            Stay safe
-          </Header.Text> */}
-          {/* <Header.PlayButton>Play</Header.PlayButton>  */}
         </Header.Feature>
       </Header>
 
@@ -101,8 +93,7 @@ export function BrowseContainer({ slides }) {
             <Card.Feature category={category}>
               <Player>
                 <Player.Button />
-                <Player.Video src= "/videos/bunny.mp4"/>
-                {/* {`/videos/${category}/${item.genre}/${item.slug}/test.mp4`} */}
+                <Player.Video src= "/videos/intro1.mp4"/>
               </Player>
             </Card.Feature>
           </Card>
